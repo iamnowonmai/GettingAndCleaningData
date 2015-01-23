@@ -1,0 +1,21 @@
+---
+title: "README"
+output: html_document
+---
+
+The script "run_analysis.R" is written to be run from the parent directory "UCI HAR Dataset" which should have subdirectories "test"" and "train".
+
+It assembles the tables "x_test" and "x_train", with variable names from "features.txt".
+Subject and Activity codes columns are added from the tables ""test/subject_test.txt", "test/y_test.txt"
+"train/subject_train.txt" and "train/y_train.txt".
+
+The tables are combined with rbind and a subset of data extracted for the mean and std of each measurement.
+
+This table is melted, grouped, and summarized to produce a mean value for each activity code for each subject of the original experiment detailed in "README.txt" in the top-level (UCI HAR Dataset) directory.
+
+The final dataset called x_tidy contains one observation subject in each row (1-30) and each column of x_tidy contains the mean of all measurements for that subject for the activity code specified ("Walking", etc.). A full description of the x_tidy table contents can be found in the file "dataDictionary.md" in this directory.
+
+## This dataset includes: 
+- run_analysis.R
+- readMe.txt
+- dataDictionary.md

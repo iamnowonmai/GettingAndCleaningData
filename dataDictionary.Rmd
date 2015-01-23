@@ -1,0 +1,29 @@
+---
+title: "dataDictionary"
+output: html_document
+---
+
+Data Dictionary - x_tidy
+
+## Subject
+Integer values 1 through 30 denoting the thirty volunteers who participated in the original project *italics*See "UCI HAR Dataset/README.txt"
+
+## Walking
+Mean value of all recorded measurements for the subject for the Walking activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+## Walking Upstairs
+Mean value of all recorded measurements for the subject for the Walking Upstairs activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+## Walking Downstairs
+Mean value of all recorded measurements for the subject for the Walking Downstairs activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+## Sitting
+Mean value of all recorded measurements for the subject for the Sitting activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+## Standing
+Mean value of all recorded measurements for the subject for the Standing activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+## Laying
+Mean value of all recorded measurements for the subject for the Laying activity. Original measurements were normalized and bounded within [-1,1], so this value has no units associated with it.
+
+### NOTE: the list of original measurements can be found in the file "UCI HAR Dataset/features.txt"
